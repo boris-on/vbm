@@ -17,7 +17,6 @@
 }
 html,body{height:100%;overflow:hidden;background:#fff;color:var(--text);font-family:'Raleway',sans-serif;font-size:13px;}
 
-
 /* NAV */
 nav{
   position:fixed;top:0;left:0;right:0;z-index:99;height:44px;
@@ -133,8 +132,8 @@ nav{
     <div class="ov-card c1" onclick="show('astra')">
       <div class="ov-ticker">ASTR RX · ПО · Частная</div>
       <div class="ov-name">Группа Астра</div>
-      <div class="ov-ri teal">+2 038 <span style="font-size:10px;color:var(--muted)">млн ₽</span></div>
-      <div class="ov-rl">RI 2024 · Spread +18,1%</div>
+      <div class="ov-ri teal">+1 774 <span style="font-size:10px;color:var(--muted)">млн ₽</span></div>
+      <div class="ov-rl">RI ср. 2021–24 · Spread ср. +31,9%</div>
       <div class="ov-tags">
         <span class="tag" style="background:var(--teal2);color:var(--teal)">I КВАРТИЛЬ</span>
         <span class="tag" style="background:var(--teal2);color:var(--teal)">Z-КЛАСС</span>
@@ -145,23 +144,23 @@ nav{
     <div class="ov-card c2" onclick="show('severstal')">
       <div class="ov-ticker">CHMF RX · Металлургия · Частная</div>
       <div class="ov-name">Северсталь</div>
-      <div class="ov-ri blu">+12 065 <span style="font-size:10px;color:var(--muted)">млн ₽</span></div>
-      <div class="ov-rl">RI 2024 · Spread +1,7%</div>
+      <div class="ov-ri blu">+85 359 <span style="font-size:10px;color:var(--muted)">млн ₽</span></div>
+      <div class="ov-rl">RI ср. 2021–24 · Spread ср. +15,6%</div>
       <div class="ov-tags">
         <span class="tag" style="background:var(--blue3);color:var(--blue)">I КВАРТИЛЬ</span>
         <span class="tag" style="background:var(--blue3);color:var(--blue)">PRE-Z</span>
-        <span class="tag" style="background:var(--red2);color:var(--red)">БЛИЗОРУКАЯ</span>
+        <span class="tag" style="background:var(--teal2);color:var(--teal)">ДАЛЬНОЗОРКАЯ</span>
       </div>
       <div class="ov-pat" style="border-left-color:var(--blue)"><b>Сырьевой суперцикл → сжатие спреда.</b> WACC +6,6 п.п. за 4 года. RI положителен все годы. ESG-лидер выборки.</div>
     </div>
     <div class="ov-card c3" onclick="show('alrosa')">
       <div class="ov-ticker">ALRS RX · Металлургия · Государственная</div>
       <div class="ov-name">АЛРОСА</div>
-      <div class="ov-ri neg">−92 904 <span style="font-size:10px;color:var(--muted)">млн ₽</span></div>
-      <div class="ov-rl">RI 2024 · Spread −15,9%</div>
+      <div class="ov-ri" style="color:var(--teal)">+252 <span style="font-size:10px;color:var(--muted)">млн ₽</span></div>
+      <div class="ov-rl">RI ср. 2021–24 · Spread ср. +1,9%</div>
       <div class="ov-tags">
         <span class="tag" style="background:var(--gold2);color:var(--gold)">II КВАРТИЛЬ</span>
-        <span class="tag" style="background:var(--red2);color:var(--red)">X-MINUS</span>
+        <span class="tag" style="background:var(--bg);color:var(--muted)">X-КЛАСС</span>
         <span class="tag" style="background:var(--gold2);color:var(--gold)">ГОСДОЛЯ 66%</span>
       </div>
       <div class="ov-pat" style="border-left-color:#B8860B"><b>Устойчивое создание → циклическое разрушение.</b> Тройной шок: санкции G7 + кризис рынка алмазов (−40%) + WACC до 20%.</div>
@@ -169,11 +168,11 @@ nav{
     <div class="ov-card c4" onclick="show('lukoil')">
       <div class="ov-ticker">LKOH RX · Нефть и газ · Частная</div>
       <div class="ov-name">Лукойл</div>
-      <div class="ov-ri neg">−695 458 <span style="font-size:10px;color:var(--muted)">млн ₽</span></div>
-      <div class="ov-rl">RI 2024 · Spread −8,6%</div>
+      <div class="ov-ri neg">−166 011 <span style="font-size:10px;color:var(--muted)">млн ₽</span></div>
+      <div class="ov-rl">RI ср. 2021–24 · Spread ср. −2,0%</div>
       <div class="ov-tags">
         <span class="tag" style="background:var(--violet2);color:var(--violet)">IV КВАРТИЛЬ</span>
-        <span class="tag" style="background:var(--gold2);color:var(--gold)">Y-КЛАСС</span>
+        <span class="tag" style="background:var(--bg);color:var(--muted)">X-КЛАСС</span>
         <span class="tag" style="background:var(--green2);color:var(--green)">ЧД/EBITDA −0,6</span>
       </div>
       <div class="ov-pat" style="border-left-color:var(--violet)"><b>Частная эффективность в отраслевой ловушке.</b> Эффект компании +413 млрд ₽. Газпром (−3,07 трлн) тянет сектор вниз.</div>
@@ -181,12 +180,12 @@ nav{
     <div class="ov-card c5" onclick="show('yandex')">
       <div class="ov-ticker">YDEX RX · ПО / Экосистема · Частная</div>
       <div class="ov-name">Яндекс</div>
-      <div class="ov-ri neg">−103 865 <span style="font-size:10px;color:var(--muted)">млн ₽</span></div>
-      <div class="ov-rl">RI 2024 · Spread −15,6%</div>
+      <div class="ov-ri neg">−67 585 <span style="font-size:10px;color:var(--muted)">млн ₽</span></div>
+      <div class="ov-rl">RI ср. 2021–24 · Spread ср. −13,5%</div>
       <div class="ov-tags">
         <span class="tag" style="background:var(--red2);color:var(--red)">IV КВАРТИЛЬ</span>
-        <span class="tag" style="background:var(--gold2);color:var(--gold)">Y / X-MINUS</span>
-        <span class="tag" style="background:var(--teal2);color:var(--teal)">ДАЛЬНОЗОРКАЯ</span>
+        <span class="tag" style="background:var(--gold2);color:var(--gold)">Y-КЛАСС</span>
+        <span class="tag" style="background:var(--gold2);color:var(--gold)">УМЕРЕННАЯ</span>
       </div>
       <div class="ov-pat" style="border-left-color:var(--red)"><b>Стратегическое разрушение ради долгосрочной ставки.</b> RI &lt;0 все 4 года. Rev CAGR 49,6%. Поиск (EBITDA 51%) субсидирует рост.</div>
     </div>
@@ -194,13 +193,13 @@ nav{
   <div class="ch-card" style="background:#fff;margin-bottom:8px;">
     <div class="ch-t" style="font-size:8px;">Сводная таблица — корпоративные паттерны экономической прибыли</div>
     <table class="stbl">
-      <thead><tr><th>Компания</th><th>Квартиль</th><th>XYZ 2024</th><th>RI 2024, млн ₽</th><th>Spread</th><th>ROIC</th><th>WACC</th><th>TCR</th><th>CHI</th><th>Собственность</th><th>Паттерн</th></tr></thead>
+      <thead><tr><th>Компания</th><th>Квартиль</th><th>XYZ ср.</th><th>RI ср. 2021–24, млн ₽</th><th>Spread</th><th>ROIC</th><th>WACC</th><th>TCR</th><th>CHI</th><th>Собственность</th><th>Паттерн</th></tr></thead>
       <tbody>
-        <tr><td class="teal">Астра</td><td class="teal">I</td><td><span class="tag" style="background:var(--teal2);color:var(--teal)">Pre-Z</span></td><td class="pos">+2 038</td><td class="pos">+18,1%</td><td class="pos">39,1%</td><td class="neg">21,1%</td><td>15,6%</td><td class="teal">Дальнозоркая</td><td>Частная</td><td class="teal">Нулевая база → Z-класс</td></tr>
-        <tr><td class="blu">Северсталь</td><td class="blu">I</td><td><span class="tag" style="background:var(--bg);color:var(--muted)">X</span></td><td class="pos">+12 065</td><td class="pos">+1,7%</td><td class="blu">22,2%</td><td class="neg">20,5%</td><td>95,2%</td><td class="neg">Близорукая</td><td>Частная</td><td class="blu">Сырьевая рента → сжатие</td></tr>
-        <tr><td class="gld">АЛРОСА</td><td class="gld">II</td><td><span class="tag" style="background:var(--red2);color:var(--red)">X-minus</span></td><td class="neg">−92 904</td><td class="neg">−15,9%</td><td class="neg">4,2%</td><td class="neg">20,0%</td><td>98,5%</td><td class="neg">Близорукая</td><td class="gld">Государственная</td><td class="gld">Создание → циклическое разрушение</td></tr>
-        <tr><td class="vio">Лукойл</td><td class="neg">IV</td><td><span class="tag" style="background:var(--red2);color:var(--red)">X-minus</span></td><td class="neg">−695 458</td><td class="neg">−8,6%</td><td class="gld">11,8%</td><td class="neg">20,4%</td><td>98,1%</td><td class="neg">Близорукая</td><td>Частная</td><td class="vio">Частная эффективность в ловушке</td></tr>
-        <tr><td class="neg">Яндекс</td><td class="neg">IV</td><td><span class="tag" style="background:var(--gold2);color:var(--gold)">Y</span></td><td class="neg">−103 865</td><td class="neg">−15,6%</td><td class="gld">6,2%</td><td class="neg">21,8%</td><td>55,7%</td><td class="teal">Дальнозоркая</td><td>Частная</td><td class="neg">Стратегическое разрушение сегодня</td></tr>
+        <tr><td class="teal">Астра</td><td class="teal">I</td><td><span class="tag" style="background:var(--teal2);color:var(--teal)">Z</span></td><td class="pos">+1 774</td><td class="pos">+31,9%</td><td class="pos">39,1%</td><td class="neg">21,1%</td><td>15,6%</td><td class="teal">Дальнозоркая (0,75)</td><td>Частная</td><td class="teal">Нулевая база → Z-класс</td></tr>
+        <tr><td class="blu">Северсталь</td><td class="blu">I</td><td><span class="tag" style="background:var(--blue3);color:var(--blue)">Pre-Z</span></td><td class="pos">+85 359</td><td class="pos">+15,6%</td><td class="blu">22,2%</td><td class="neg">20,5%</td><td>95,2%</td><td class="teal">Дальнозоркая (0,61)</td><td>Частная</td><td class="blu">Сырьевая рента → сжатие</td></tr>
+        <tr><td class="gld">АЛРОСА</td><td class="gld">II</td><td><span class="tag" style="background:var(--bg);color:var(--muted)">X</span></td><td class="pos">+252</td><td class="pos">+1,9%</td><td class="neg">4,2%</td><td class="neg">20,0%</td><td>98,5%</td><td class="neg">Близорукая (0,36)</td><td class="gld">Государственная</td><td class="gld">Создание → циклическое разрушение</td></tr>
+        <tr><td class="vio">Лукойл</td><td class="neg">IV</td><td><span class="tag" style="background:var(--bg);color:var(--muted)">X</span></td><td class="neg">−166 011</td><td class="neg">−2,0%</td><td class="gld">11,8%</td><td class="neg">20,4%</td><td>98,1%</td><td class="neg">Близорукая (0,28)</td><td>Частная</td><td class="vio">Частная эффективность в ловушке</td></tr>
+        <tr><td class="neg">Яндекс</td><td class="neg">IV</td><td><span class="tag" style="background:var(--gold2);color:var(--gold)">Y</span></td><td class="neg">−67 585</td><td class="neg">−13,5%</td><td class="gld">6,2%</td><td class="neg">21,8%</td><td>55,7%</td><td class="gld">Умеренная (0,50)</td><td>Частная</td><td class="neg">Стратегическое разрушение сегодня</td></tr>
       </tbody>
     </table>
   </div>
@@ -275,22 +274,24 @@ const C={
     badges:[
       {t:'I КВАРТИЛЬ',bg:'var(--teal2)',c:'var(--teal)'},
       {t:'Z → PRE-Z',bg:'var(--teal2)',c:'var(--teal)'},
-      {t:'ДАЛЬНОЗОРКАЯ',bg:'var(--blue3)',c:'var(--blue)'},
+      {t:'ДАЛЬНОЗОРКАЯ (CHI 0,75)',bg:'var(--teal2)',c:'var(--teal)'},
       {t:'ЧАСТНАЯ',bg:'var(--violet2)',c:'var(--violet)'},
       {t:'~100% ЭФФЕКТ КОМПАНИИ',bg:'var(--teal2)',c:'var(--teal)'},
     ],
     kpis:[
-      {l:'RI 2024',v:'+2 038',u:'млн ₽',cls:'pos'},
-      {l:'Spread 2024',v:'+18,1',u:'%',cls:'pos'},
-      {l:'ROIC 2024',v:'39,1',u:'%',cls:'teal'},
+      {l:'RI ср. 2021–24',v:'+1 774',u:'млн ₽',cls:'pos'},
+      {l:'Spread ср. 2021–24',v:'+31,9',u:'%',cls:'pos'},
+      {l:'ROIC ср. 2021–24',v:'82,6',u:'%',cls:'teal'},
       {l:'WACC 2024',v:'21,1',u:'%',cls:'gld'},
       {l:'Выручка 2024',v:'17 206',u:'млн ₽',cls:''},
       {l:'Rev CAGR 3Y',v:'99,7',u:'%',cls:'teal'},
     ],
     xyz:[{x:-14.4,y:0},{x:97.2,y:150},{x:26.9,y:77},{x:18.1,y:80}],
     spread:[-14.4,97.2,26.9,18.1],
+    wacc:[14.5,16.7,18.2,21.1],
+    roic:[132.1,113.9,45.1,39.1],
     tsr:[null,null,35,-20],
-    chi:{I1:82,I2:71,I3:65,I5:75,type:'Дальнозоркая',color:'var(--teal)'},
+    chi:{I1:100,I2:22.22,I3:77.78,I5:100,type:'Дальнозоркая',color:'var(--teal)'},
     narr_lbl:'НУЛЕВАЯ БАЗА → УСТОЙЧИВЫЙ Z-КЛАСС',
     narr_bg:'var(--teal2)', narr_bc:'var(--teal)',
     narr_txt:'Единственный <b>Z-класс в секторе ПО</b> (RI отрасли −21 253 млн ₽). ROIC 39,1% при TCR 15,6% — стоимость через интеллектуальный капитал. Двойной барьер: монополия Astra Linux + нарастающая выручка от сопровождения. Катализатор возврата в Z — снижение ставки ЦБ.',
@@ -302,21 +303,23 @@ const C={
     badges:[
       {t:'I КВАРТИЛЬ',bg:'var(--blue3)',c:'var(--blue)'},
       {t:'PRE-Z (СРЕДНИЙ)',bg:'var(--blue3)',c:'var(--blue)'},
-      {t:'БЛИЗОРУКАЯ',bg:'var(--red2)',c:'var(--red)'},
+      {t:'ДАЛЬНОЗОРКАЯ (CHI 0,61)',bg:'var(--teal2)',c:'var(--teal)'},
       {t:'ESG-ЛИДЕР 91–97',bg:'var(--teal2)',c:'var(--teal)'},
     ],
     kpis:[
-      {l:'RI 2024',v:'+12 065',u:'млн ₽',cls:'pos'},
-      {l:'Spread 2024',v:'+1,7',u:'%',cls:'pos'},
-      {l:'ROIC 2024',v:'22,2',u:'%',cls:'blu'},
+      {l:'RI ср. 2021–24',v:'+85 359',u:'млн ₽',cls:'pos'},
+      {l:'Spread ср. 2021–24',v:'+15,6',u:'%',cls:'pos'},
+      {l:'ROIC ср. 2021–24',v:'32,3',u:'%',cls:'blu'},
       {l:'WACC 2024',v:'20,5',u:'%',cls:'neg'},
       {l:'RI пик 2021',v:'+249 050',u:'млн ₽',cls:'pos'},
       {l:'ESG score 2024',v:'93,28',u:'',cls:'teal'},
     ],
     xyz:[{x:48.7,y:5},{x:8.0,y:-21},{x:3.9,y:7},{x:1.7,y:14}],
     spread:[48.7,8.0,3.9,1.7],
+    wacc:[13.9,15.4,17.2,20.5],
+    roic:[62.5,23.4,21.1,22.2],
     tsr:[53,-38,42,-8],
-    chi:{I1:38,I2:32,I3:28,I5:42,type:'Близорукая',color:'var(--red)'},
+    chi:{I1:72.73,I2:54.55,I3:63.64,I5:54.55,type:'Дальнозоркая',color:'var(--teal)'},
     narr_lbl:'СЫРЬЕВОЙ СУПЕРЦИКЛ → СЖАТИЕ СПРЕДА ПРИ РОСТЕ WACC',
     narr_bg:'var(--blue3)', narr_bc:'var(--blue)',
     narr_txt:'RI положителен <b>все 4 года</b> несмотря на потерю европейского экспорта (2022) и рост WACC 13,9%→20,5%. Разрушитель — не операционный провал, а <b>WACC</b>: ROIC ~22% стабилен. ESG 91–97 — лидер I квартиля. Покупка А ГРУПП (2024) — первый дальнозоркий сигнал.',
@@ -327,22 +330,24 @@ const C={
     color:'#B8860B', colorL:'var(--gold2)',
     badges:[
       {t:'II КВАРТИЛЬ',bg:'var(--gold2)',c:'var(--gold)'},
-      {t:'X-MINUS 2024',bg:'var(--red2)',c:'var(--red)'},
+      {t:'X-КЛАСС (ср. 2021–2024)',bg:'var(--bg)',c:'var(--muted)'},
       {t:'ГОСУДАРСТВЕННАЯ',bg:'var(--gold2)',c:'var(--gold)'},
       {t:'TCR 98,5%',bg:'var(--bg)',c:'var(--muted)'},
     ],
     kpis:[
-      {l:'RI 2024',v:'−92 904',u:'млн ₽',cls:'neg'},
-      {l:'Spread 2024',v:'−15,9',u:'%',cls:'neg'},
-      {l:'ROIC 2024',v:'4,2',u:'%',cls:'neg'},
+      {l:'RI ср. 2021–24',v:'+252',u:'млн ₽',cls:'pos'},
+      {l:'Spread ср. 2021–24',v:'+1,9',u:'%',cls:'pos'},
+      {l:'ROIC ср. 2021–24',v:'18,5',u:'%',cls:'gld'},
       {l:'WACC 2024',v:'20,0',u:'%',cls:'neg'},
       {l:'Выручка 2024',v:'239 067',u:'млн ₽',cls:'neg'},
       {l:'Spread 2021',v:'+13,0',u:'%',cls:'pos'},
     ],
     xyz:[{x:13.0,y:-11},{x:11.4,y:-11},{x:-0.8,y:9},{x:-15.9,y:-26}],
     spread:[13.0,11.4,-0.8,-15.9],
+    wacc:[13.8,15.3,17.0,20.0],
+    roic:[26.8,26.7,16.1,4.2],
     tsr:[8,-42,15,-35],
-    chi:{I1:48,I2:30,I3:22,I5:25,type:'Близорукая',color:'var(--red)'},
+    chi:{I1:27.27,I2:0,I3:36.36,I5:81.82,type:'Близорукая',color:'var(--red)'},
     narr_lbl:'УСТОЙЧИВОЕ СОЗДАНИЕ → ЦИКЛИЧЕСКОЕ РАЗРУШЕНИЕ',
     narr_bg:'var(--gold2)', narr_bc:'#B8860B',
     narr_txt:'От Pre-Z (RI +46–52 млрд, 2021–2022) к X-minus (RI −93 млрд, 2024) под тройным ударом: санкции G7 + цены на алмазы −40% + WACC 20%. <b>Госдоля 66%+</b> — ограничитель гибкости и причина персональных санкций. Суммарное сжатие спреда −28,9 п.п. — рекорд выборки.',
@@ -353,23 +358,25 @@ const C={
     color:'#5E35B1', colorL:'var(--violet2)',
     badges:[
       {t:'IV КВАРТИЛЬ',bg:'var(--violet2)',c:'var(--violet)'},
-      {t:'Y-КЛАСС',bg:'var(--gold2)',c:'var(--gold)'},
+      {t:'X (ср. 2021–2024)',bg:'var(--bg)',c:'var(--muted)'},
       {t:'ЧАСТНАЯ',bg:'var(--green2)',c:'var(--green)'},
       {t:'ЧД/EBITDA −0,6',bg:'var(--green2)',c:'var(--green)'},
       {t:'ЭФФ. КОМПАНИИ +414 МЛД',bg:'var(--violet2)',c:'var(--violet)'},
     ],
     kpis:[
-      {l:'RI 2024',v:'−695 458',u:'млн ₽',cls:'neg'},
-      {l:'Spread 2024',v:'−8,6',u:'%',cls:'neg'},
-      {l:'ROIC 2024',v:'11,8',u:'%',cls:'gld'},
+      {l:'RI ср. 2021–24',v:'−166 011',u:'млн ₽',cls:'neg'},
+      {l:'Spread ср. 2021–24',v:'−2,0',u:'%',cls:'neg'},
+      {l:'ROIC ср. 2021–24',v:'14,4',u:'%',cls:'gld'},
       {l:'WACC 2024',v:'20,4',u:'%',cls:'neg'},
       {l:'Выручка 2024',v:'8 622',u:'млрд ₽',cls:''},
       {l:'ЧД / EBITDA',v:'−0,6',u:'×',cls:'pos'},
     ],
     xyz:[{x:0.0,y:67},{x:1.8,y:-9},{x:-1.2,y:-8},{x:-8.6,y:9}],
     spread:[0.0,1.8,-1.2,-8.6],
+    wacc:[13.4,15.0,16.8,20.4],
+    roic:[13.3,16.8,15.6,11.8],
     tsr:[35,-20,52,3],
-    chi:{I1:42,I2:58,I3:35,I5:40,type:'Близорукая',color:'var(--red)'},
+    chi:{I1:11.11,I2:55.56,I3:44.44,I5:0,type:'Близорукая',color:'var(--red)'},
     narr_lbl:'ЧАСТНАЯ ЭФФЕКТИВНОСТЬ В ОТРАСЛЕВОЙ ЛОВУШКЕ',
     narr_bg:'var(--violet2)', narr_bc:'var(--violet)',
     narr_txt:'Эффект компании <b>+413,9 млрд ₽</b> (положительный) — менеджмент создаёт стоимость. Эффект отрасли −499,4 млрд — Газпром (RI −3,07 трлн) определяет бенчмарк сектора. ЧД/EBITDA = −0,6: финансово крепкая компания. Налоговый пресс: 26% выручки 2024 г.',
@@ -380,23 +387,25 @@ const C={
     color:'#C0392B', colorL:'var(--red2)',
     badges:[
       {t:'IV КВАРТИЛЬ',bg:'var(--red2)',c:'var(--red)'},
-      {t:'Y / X-MINUS',bg:'var(--gold2)',c:'var(--gold)'},
-      {t:'ДАЛЬНОЗОРКАЯ',bg:'var(--teal2)',c:'var(--teal)'},
+      {t:'Y-КЛАСС (ср. 2021–2024)',bg:'var(--gold2)',c:'var(--gold)'},
+      {t:'УМЕРЕННАЯ (CHI 0,50)',bg:'var(--gold2)',c:'var(--gold)'},
       {t:'ЧАСТНАЯ',bg:'var(--blue3)',c:'var(--blue)'},
       {t:'RI < 0 ВСЕ 4 ГОДА',bg:'var(--red2)',c:'var(--red)'},
     ],
     kpis:[
-      {l:'RI 2024',v:'−103 865',u:'млн ₽',cls:'neg'},
-      {l:'Spread 2024',v:'−15,6',u:'%',cls:'neg'},
-      {l:'ROIC 2024',v:'6,2',u:'%',cls:'gld'},
+      {l:'RI ср. 2021–24',v:'−67 585',u:'млн ₽',cls:'neg'},
+      {l:'Spread ср. 2021–24',v:'−13,5',u:'%',cls:'neg'},
+      {l:'ROIC ср. 2021–24',v:'4,1',u:'%',cls:'gld'},
       {l:'WACC 2024',v:'21,8',u:'%',cls:'neg'},
       {l:'Выручка 2024',v:'1 095',u:'млрд ₽',cls:'teal'},
       {l:'Rev CAGR 4Y',v:'49,6',u:'%',cls:'teal'},
     ],
     xyz:[{x:-17.4,y:36},{x:-13.8,y:46},{x:-7.0,y:53},{x:-15.6,y:37}],
     spread:[-17.4,-13.8,-7.0,-15.6],
+    wacc:[14.8,16.1,17.4,21.8],
+    roic:[-2.6,2.4,10.5,6.2],
     tsr:[-38,-55,82,20],
-    chi:{I1:85,I2:72,I3:68,I5:80,type:'Дальнозоркая',color:'var(--teal)'},
+    chi:{I1:66.67,I2:77.78,I3:44.44,I5:11.11,type:'Умеренная',color:'var(--gold)'},
     narr_lbl:'СТРАТЕГИЧЕСКОЕ РАЗРУШЕНИЕ СЕГОДНЯ — ДОЛГОСРОЧНАЯ СТАВКА',
     narr_bg:'var(--red2)', narr_bc:'var(--red)',
     narr_txt:'RI &lt;0 все 4 года (−74–104 млрд ₽), однако <b>Rev CAGR 49,6%</b> — max в выборке. Поиск (EBITDA 51%) субсидирует рост убыточных сегментов. TCR 55,7% после реорганизации МКПАО. <b>WACC-чувствительность max</b>: снижение ставки ЦБ → переход во II квартиль без операционных изменений.',
@@ -553,7 +562,7 @@ function makeXYZ(id,co){
 
 // ── SPREAD LINE CHART ─────────────────────────────────────────────────────────
 function makeSpread(id,co){
-  const d=co.spread;
+  const d=co.spread, w=co.wacc;
   return new Chart(document.getElementById(id),{
     type:'line',
     data:{labels:YR,datasets:[{
@@ -564,23 +573,55 @@ function makeSpread(id,co){
       fill:true,
       pointBackgroundColor:d.map(v=>v>=0?co.color:'#C0392B'),
       pointRadius:5,borderWidth:2,tension:0.3,
+      yAxisID:'y',
+    },{
+      label:'WACC, %',
+      data:w,
+      borderColor:'rgba(107,130,176,0.9)',
+      borderDash:[5,3],
+      backgroundColor:'transparent',
+      pointBackgroundColor:'rgba(107,130,176,0.9)',
+      pointStyle:'triangle',
+      pointRadius:5,borderWidth:2,tension:0.3,
+      fill:false,
+      yAxisID:'y2',
     },{
       label:'Порог Z (+2,5%)',
       data:[2.5,2.5,2.5,2.5],
       borderColor:'rgba(0,123,110,0.4)',
       borderDash:[4,3],pointRadius:0,borderWidth:1.5,
+      yAxisID:'y',
     },{
       label:'Ноль (0%)',
       data:[0,0,0,0],
       borderColor:'rgba(192,57,43,0.35)',
       borderDash:[3,3],pointRadius:0,borderWidth:1,
+      yAxisID:'y',
     }]},
     options:{
       responsive:true,maintainAspectRatio:false,
-      plugins:{legend:{labels:{color:'#6B82B0',boxWidth:10,font:{size:8}}},tooltip:TIP},
+      plugins:{
+        legend:{labels:{color:'#6B82B0',boxWidth:10,font:{size:8}}},
+        tooltip:{...TIP,callbacks:{label:ctx=>{
+          if(ctx.datasetIndex===1) return `WACC: ${ctx.parsed.y.toFixed(1)}%`;
+          if(ctx.datasetIndex===0) return `Spread: ${ctx.parsed.y>0?'+':''}${ctx.parsed.y.toFixed(1)}%`;
+          return null;
+        }}}
+      },
       scales:{
         x:{grid:{display:false},ticks:{color:'#6B82B0'},border:{display:false}},
-        y:{grid:GR,ticks:{color:'#6B82B0',callback:v=>v+'%'},border:{display:false}}
+        y:{
+          grid:GR,ticks:{color:'#6B82B0',callback:v=>v+'%'},
+          border:{display:false},position:'left',
+          title:{display:true,text:'Spread, %',color:'#6B82B0',font:{size:7,family:'IBM Plex Mono'}},
+        },
+        y2:{
+          grid:{display:false},
+          ticks:{color:'rgba(107,130,176,0.8)',callback:v=>v+'%',font:{size:7}},
+          border:{display:false},position:'right',
+          min:10,max:26,
+          title:{display:true,text:'WACC, %',color:'rgba(107,130,176,0.8)',font:{size:7,family:'IBM Plex Mono'}},
+        }
       }
     }
   });
@@ -615,23 +656,29 @@ function makeTSR(id,co){
 function makeCHI(id,co){
   const ch=co.chi;
   const vals=[ch.I1,ch.I2,ch.I3,ch.I5];
-  const isD=ch.type==='Дальнозоркая';
-  const barColor=isD?'rgba(0,123,110,0.7)':'rgba(192,57,43,0.65)';
+  const barColor=ch.type==='Дальнозоркая'?'rgba(0,123,110,0.72)':
+                 ch.type==='Умеренная'   ?'rgba(154,108,0,0.70)':
+                                           'rgba(192,57,43,0.65)';
   return new Chart(document.getElementById(id),{
     type:'bar',
     data:{
-      labels:['I1 Инвестиции\n(CAPEX/D&A)','I2 Качество\nприбыли','I3 Рост\nрентабельности','I5 EPS vs\nRev Growth'],
+      labels:[
+        'I1 Инвестиции\n(CAPEX/D&A)',
+        'I2 Качество\nприбыли (CFO)',
+        'I3 Рост\nрентаб-ти (EBIT)',
+        'I5 Прибыль\nна акцию (EPS)'
+      ],
       datasets:[{
-        label:`CHI: ${ch.type}`,
+        label:`CHI = ${((ch.I1+ch.I2+ch.I3+ch.I5)/400).toFixed(2)} · ${ch.type}`,
         data:vals,
         backgroundColor:barColor,
         borderRadius:4,borderSkipped:false,
       },{
-        label:'Порог (50)',
+        label:'Порог умеренной ориентации (0,5)',
         data:[50,50,50,50],
         backgroundColor:'transparent',
-        borderColor:'rgba(107,130,176,0.4)',
-        borderWidth:1,
+        borderColor:'rgba(107,130,176,0.45)',
+        borderWidth:1.5,
         type:'line',
         borderDash:[4,3],
         pointRadius:0,
@@ -642,10 +689,10 @@ function makeCHI(id,co){
       indexAxis:'y',
       plugins:{
         legend:{labels:{color:'#6B82B0',boxWidth:10,font:{size:8}}},
-        tooltip:{...TIP,callbacks:{label:ctx=>ctx.datasetIndex===0?`Субиндекс: ${ctx.parsed.x}/100`:null}}
+        tooltip:{...TIP,callbacks:{label:ctx=>ctx.datasetIndex===0?`Субиндекс: ${(ctx.parsed.x/100).toFixed(4)}`:null}}
       },
       scales:{
-        x:{grid:GR,ticks:{color:'#6B82B0',callback:v=>v},border:{display:false},min:0,max:100},
+        x:{grid:GR,ticks:{color:'#6B82B0',callback:v=>(v/100).toFixed(1)},border:{display:false},min:0,max:100},
         y:{grid:{display:false},ticks:{color:'#6B82B0',font:{size:8}},border:{display:false}}
       }
     }
